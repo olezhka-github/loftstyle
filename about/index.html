@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loft Style Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="/">Головна</a></li>
+                    <li><a href="/about">Про нас</a></li>
+                    <li><a href="/contact">Наші контакти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Про нас                  </h2>
+            <p> *** інформація про вас ***</p>
+        </div>
+    </section>
+    <br>
+    <h4>Біографія </h4>
+    <h3>тут ваша біографія або біографія компанії</h3>
+    <h4>Партнери</h4>
+    <h3>тут ваші партнери або зображення</h3>
+    <script>
+        document.addEventListener('contextmenu', function(event) {
+    event.preventDefault(); // Вимикає контекстне меню
+});
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'F12' || (event.ctrlKey && event.shiftKey && event.key === 'I')) {
+    event.preventDefault();
+  }
+});
+
+    </script>
+</body>
+</html>
